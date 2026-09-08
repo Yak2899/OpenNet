@@ -31,6 +31,8 @@ std::optional<Route> Network::route(NodeId source, NodeId destination) const {
         return std::nullopt;
     }
 
+    // Every link has the same cost, so breadth-first search finds the
+    // shortest route. `previous` records how each node was reached.
     std::queue<NodeId> pending;
     std::unordered_map<NodeId, NodeId> previous;
     pending.push(source);

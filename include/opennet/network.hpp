@@ -19,6 +19,7 @@ public:
     bool connect(NodeId left, NodeId right);
 
     // Find the shortest route using the links currently in the network.
+    // An empty optional means that a node is unknown or unreachable.
     std::optional<Route> route(NodeId source, NodeId destination) const;
 
 private:

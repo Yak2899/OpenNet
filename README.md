@@ -35,7 +35,9 @@ The demo prints the route found through a four-node network.
 ## Where to go next
 
 The current `Network` class models only node registration, bidirectional links,
-and shortest-path routing. Suggested increments are:
+and shortest-path routing. Routing uses breadth-first search, which is a useful
+first algorithm because every in-memory link currently has the same cost.
+Suggested increments are:
 
 1. Add a `Packet` type and a queue between neighbours.
 2. Introduce a transport layer with delivery and retry rules.
