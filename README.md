@@ -5,4 +5,4 @@ In our current timeline the corrupted corporates and the governments have ruined
 
 Everything will be built from the ground up. This hopefully will be the beginning of a great internet revolution.
 
-All contributions will be appreciated.
+This project won’t be easy to achieve, but it’s possible with great community, time and people support. All contributions will be appreciated.
